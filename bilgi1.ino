@@ -41,12 +41,7 @@ int yukseklik = bmp.readAltitude(101500);
     Serial.println();
  
 
-  /*  if(for(bmp.readAltitude(101500)=500), bmp.readAltitude(101500)<600, bmp.readAltitude(101500)--) {
-      //girilecek tetikleyici komutu
-    }
-    else {
-      
-    }*/
+  
     
     
     if(yukseklik-=150){
